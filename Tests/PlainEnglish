@@ -1,0 +1,8 @@
+Test for same input = tie
+test two user inputs to determine a win
+paper and rock = paper win
+rock and scissors = rock win
+scisors and paper = paper win
+return should desplay winning choice
+
+input1(paper)

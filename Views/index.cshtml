@@ -1,0 +1,20 @@
+<form action="/" method="post">
+  <label for="input1">Player 1</label>
+  <select id="input1" name="input1" type="text">
+    <option value="rock">Rock</option>
+    <option value="paper">Paper</option>
+    <option value="scissors">Scissors</option>
+  </select>
+  <label for="input1">Player 2</label>
+  <select id="input2" name="input2" type="text">
+    <option value="rock">Rock</option>
+    <option value="paper">Paper</option>
+    <option value="scissors">Scissors</option>
+  </select>
+  <button type="submit">Submit</button>
+</form>
+
+@if (@Model != "")
+{
+  <p> The winner is: @Model </p>
+}
